@@ -1,0 +1,14 @@
+Filename: run_mem_prof.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    15     27.4 MiB     27.4 MiB   @profile
+    16                             def foo(l):
+    17     27.4 MiB      0.0 MiB       res = []
+    18     27.4 MiB      0.0 MiB       for i in l:
+    19     27.4 MiB      0.0 MiB           a = l.copy()
+    20     27.4 MiB      0.0 MiB           a.remove(i)
+    21     27.4 MiB      0.0 MiB           res.append(block(a))
+    22     27.4 MiB      0.0 MiB       return res
+
+

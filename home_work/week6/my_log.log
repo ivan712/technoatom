@@ -1,0 +1,23 @@
+DEBUG:root:---------------------
+DEBUG:root:start foo([8, 10, 4])
+DEBUG:root:---------------------
+DEBUG:root:start block a for element 8
+DEBUG:root:a =[10, 4]
+DEBUG:root:mult =40
+DEBUG:root:stop block a
+DEBUG:root:----------------------
+DEBUG:root:---------------------
+DEBUG:root:start block a for element 10
+DEBUG:root:a =[8, 4]
+DEBUG:root:mult =32
+DEBUG:root:stop block a
+DEBUG:root:----------------------
+DEBUG:root:---------------------
+DEBUG:root:start block a for element 4
+DEBUG:root:a =[8, 10]
+DEBUG:root:mult =80
+DEBUG:root:stop block a
+DEBUG:root:----------------------
+DEBUG:root:res = [40, 32, 80]
+DEBUG:root:Stop foo
+DEBUG:root:-----------------------
